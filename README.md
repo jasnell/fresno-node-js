@@ -8,7 +8,7 @@ Twitter: http://twitter.com/fresnonodejs
 ## Venue
 
 Bitwise Industries, Mural District Location
-2210 San Joaquin St., 
+2210 San Joaquin St.,
 Fresno, California 93721
 
 "Discovery" Conference Room
@@ -56,3 +56,17 @@ Sponsor: ?
 What: ?
 Speaker(s): ?
 Sponsor: ?
+
+
+## Topics Brainstorm
+
+James: some of the topics I'd like to cover at some point (I have some specific speakers in mind already for several of these)
+
+1. Node.js Community / Foundation
+2. The Node.js Module Ecosystem
+3. Diversity in Technology
+4. Internationalization in Node.js
+5. IBM Bluemix and Cloud Foundry in general
+6. Developing on Github
+7. Node.js Frameworks (grunt, yeoman, etc)
+8. An open topics night (have members of the meetup group get up and give short presentations on topics that interest them)
