@@ -1,10 +1,6 @@
-## Topics Brainstorm
+## Topics
 
 If you would like to request a topic for the meetup, please fork this repo and submit a pull request with your ideas below.
-
-Requests
-
-1. ?
 
 James Snell
 
