@@ -11,7 +11,7 @@ Bitwise Industries, Mural District Location
 2210 San Joaquin St.,
 Fresno, California 93721
 
-"Discovery" Conference Room
+The meetup is hosted in the front lobby room of the venue.
 
 ## Schedule
 
