@@ -23,5 +23,7 @@ Robert Schultz
 6. Scalable Node.js Architecture
 7. ~~Node.js & IoT~~
 8. Google's V8 and libuv
-9. Breaking Down the Monolithic Stack
+9. Modularity
 10. Debugging Node.js
+11. Node.js & Testing (Unit, Integration, Functional)
+12. Isomorphic Patterns
