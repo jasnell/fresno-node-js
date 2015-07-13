@@ -15,71 +15,53 @@ Fresno, California 93721
 
 ## Schedule
 
+The following are the upcoming schedules.
+
 ### 2015-06-15 6pm-8pm
 
-What: Kicking things off
+What: Kicking Things Off
+Description: We will be kicking off the first official Node.js meetup in Fresno. This will include a meet and greet, quick introduction to Node.js by James Snell and then a deep dive into the journey Ancestry has taken to adopt Node.js from an enterprise perspective.
 Speaker(s): James Snell, Robert Schultz
 Sponsor: IBM
 
-### 2015-07-?? 6pm-8pm
+### 2015-07-13 6pm-8pm
 
-What: ?
-Speaker(s): ?
+What: It's All About the IoT
+Description: Have some fun connecting internet connected devices (IoT) powered by Node.js. We will also cover why Node.js is a great platform to power physisical devices based on it's event model.
+Speaker(s): James Snell, Robert Schultz
 Sponsor: Ancestry.com
 
-### 2015-08-?? 6pm-8pm
+### 2015-08-10 6pm-8pm
 
 What: ?
+Description: ?
 Speaker(s): ?
 Sponsor: ?
 
-### 2015-09-?? 6pm-8pm
+### 2015-09-14 6pm-8pm
 
 What: ?
+Description: ?
 Speaker(s): ?
 Sponsor: ?
 
-### 2015-10-?? 6pm-8pm
+### 2015-10-12 6pm-8pm
 
 What: ?
+Description: ?
 Speaker(s): ?
 Sponsor: ?
 
-### 2015-11-?? 6pm-8pm
+### 2015-11-09 6pm-8pm
 
 What: ?
+Description: ?
 Speaker(s): ?
 Sponsor: ?
 
-### 2015-12-?? 6pm-8pm
+### 2015-12-14 6pm-8pm
 
 What: ?
+Description: ?
 Speaker(s): ?
 Sponsor: ?
-
-
-## Topics Brainstorm
-
-James: some of the topics I'd like to cover at some point (I have some specific speakers in mind already for several of these)
-
-1. Node.js Community / Foundation
-2. The Node.js Module Ecosystem
-3. Diversity in Technology
-4. Internationalization in Node.js
-5. IBM Bluemix and Cloud Foundry in general
-6. Developing on Github
-7. Node.js Frameworks (grunt, yeoman, etc)
-8. An open topics night (have members of the meetup group get up and give short presentations on topics that interest them)
-
-Robert: some of the topics I think would be good to think about.
-
-1. Anti-Patterns in Node.js
-2. Node.js & Microservices Architecture
-3. Adoption of Node.js in the Enterprise (my panel at NodeDay)
-4. Asynchronous Patterns
-5. ES6+ and Beyond
-6. Scalable Node.js Architecture
-7. Node.js & IoT
-8. Google's V8 and libuv
-9. Breaking Down the Monolithic Stack
-10. Debugging Node.js
