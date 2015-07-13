@@ -13,6 +13,10 @@ Fresno, California 93721
 
 The meetup is hosted in the front lobby room of the venue.
 
+## Topics
+
+We have discussed proposed upcoming topics over [here](TOPICS.md).
+
 ## Schedule
 
 The following are the upcoming schedules through the end of 2015.
