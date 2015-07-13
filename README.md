@@ -15,7 +15,7 @@ The meetup is hosted in the front lobby room of the venue.
 
 ## Schedule
 
-The following are the upcoming schedules.
+The following are the upcoming schedules through the end of 2015.
 
 ### 2015-06-15 6pm-8pm
 
