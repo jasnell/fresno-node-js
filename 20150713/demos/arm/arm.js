@@ -10,9 +10,9 @@ board.on('ready', function() {
     }
   );
   var controller = {
-    shoulder: servo[0],
-    elbow: servo[1],
-    wrist: servo[2],
+    shoulder: servos[0],
+    elbow: servos[1],
+    wrist: servos[2],
     wave: function() {
       this.shoulder.center();
       this.elbow.center();
