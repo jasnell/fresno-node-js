@@ -4,7 +4,7 @@ If you would like to request a topic for the meetup, please fork this repo and s
 
 James Snell
 
-1. Node.js Community / Foundation
+1. ~~Node.js Community / Foundation~~
 2. The Node.js Module Ecosystem
 3. Diversity in Technology
 4. Internationalization in Node.js
