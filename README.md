@@ -45,7 +45,8 @@ What: Building Modern Web Applications with Node.js
 Description: Come learn how to build modern web applications with the node.js platform. We will cover the basics of using express, middleware, debugging, gulp, yeoman, nodemon, mocha and more.
 
 Speaker(s): **James Snell, Robert Schultz**
-Sponsor: ?
+
+Sponsor: **?**
 
 ### 2015-09-14 6pm-8pm
 
