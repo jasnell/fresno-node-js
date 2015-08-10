@@ -1,6 +1,11 @@
 var gulp = require('gulp');
 var mocha = require('gulp-mocha');
+
 var istanbul = require('gulp-istanbul');
+
+var less = require('gulp-less');
+var minify = require('gulp-minify-css');
+var path = require('path');
 
 gulp.task('default', function() {
 	return gulp.src(['test/*.js'], { read: false })
@@ -22,4 +27,11 @@ gulp.task('istanbul', function(cb) {
             .pipe(istanbul.writeReports()) // Creating the reports after tests ran
             .on('end', cb);
     });
+});
+
+gulp.task('less', function () {
+  return gulp.src('./styles/src/**/*.less')
+    .pipe(less({}))
+    /*.pipe(minify())*/
+    .pipe(gulp.dest('./styles/dst'));
 });
