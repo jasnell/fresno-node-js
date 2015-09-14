@@ -1,3 +1,4 @@
+/*
 var should = require('should');
 var http = require('http');
 var server = require('../app');
@@ -24,3 +25,4 @@ describe('Making a simple request...', function() {
 	    });
   	});
 });
+*/
