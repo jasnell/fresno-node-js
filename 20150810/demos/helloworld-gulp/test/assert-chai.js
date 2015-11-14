@@ -35,6 +35,20 @@ describe('Making a simple request', function() {
 	      });
 	    });
   	});
+	  it('Should return a 200 OK with "Hello World Robert Schultz!"', function(done) {
+	    http.get('http://localhost:8888/?firstName=John&lastName=Schultz', function(res) {
+		  res.statusCode.should.equal(200);
+	      var body = '';
+	      res.on('data', function(chunk) {
+	        body += chunk;
+	      });
+	      res.on('end', function() {
+			expect(body.trim()).equal('Hello World John John!');
+			expect(body.trim()).to.be.a('string');
+	        done();
+	      });
+	    });
+  	});
 	it('Should return a 200 OK with "Hello World undefined undefined!"', function(done) {
 	    http.get('http://localhost:8888/', function(res) {
 		  res.statusCode.should.equal(200);

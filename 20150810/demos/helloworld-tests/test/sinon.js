@@ -2,7 +2,6 @@ var index = require('../routes/index');
 var sinon = require('sinon');
 var expect = require('chai').expect;
 
-/*
 describe('Stub request dependency', function() {
    it("Calls status method once", function () {
         var req, res;
@@ -28,4 +27,3 @@ describe('Stub request dependency', function() {
         expect(spyEnd.calledOnce).to.equal(true);
     });     
 });
-*/

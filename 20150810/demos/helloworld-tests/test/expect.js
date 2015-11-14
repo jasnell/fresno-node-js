@@ -1,5 +1,4 @@
 var expect = require('expect');
-/*
 var http = require('http');
 var server = require('../app');
 
@@ -18,4 +17,3 @@ describe('Making a simple request...', function() {
     });
   });
 });
-*/
