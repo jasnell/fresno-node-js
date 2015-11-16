@@ -18,6 +18,18 @@ app.on('window-all-closed', function() {
 // initialization and ready for creating browser windows.
 app.on('ready', function() {
   // Create the browser window.
+
+  var Menu = require('menu');
+  var dockMenu = Menu.buildFromTemplate([
+    { label: 'New Window', click: function() { console.log('New Window'); } },
+    { label: 'New Window with Settings', submenu: [
+      { label: 'Basic' },
+      { label: 'Pro'}
+    ]},
+    { label: 'New Command...'}
+  ]);
+  app.dock.setMenu(dockMenu);
+
   mainWindow = new BrowserWindow({width: 1060, height: 700});
 
   // and load the index.html of the app.

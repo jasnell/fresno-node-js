@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Video and Snapshot Creator</title>
+		<link rel="stylesheet" href="foundation/css/foundation.css">
+	</head>
+	<body>
+		<div class="row">
+			<div class="large-12 columns">
+                <div class="nav-bar right">
+                    <button id="screenshot-button">Capture</button>
+                </div>
+				<h1>Video and Snapshot Creator</h1>
+				<hr/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="large-9 columns" role="content">
+				<article>
+					<video id="camera" width="640" height="480" autoplay></video>
+					<canvas style="display:none;" width="640" height="480"></canvas>
+				</article>
+			</div>
+			<aside class="large-3 columns">
+				<h3>Snapshots</h3>
+				<ul id="snapshots" class="side-nav" style="height: 430px; overflow: scroll;">
+                    <span id="nonelabel">You currently have no snapshots saved.</span>
+				</ul>
+			</aside>
+		</div>
+		<footer class="row">
+			<div class="large-12 columns">
+				<hr/>
+				<div class="row">
+					<div class="large-6 columns">
+						<p>&copy; Robert Schultz 2015</p>
+					</div>
+					<div class="large-6 columns">
+						<ul class="inline-list right">
+							<li><a href="#">About</a></li>
+							<li><a href="#">Docs</a></li>
+							<li><a href="#">Support</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
+<script src="app.js"></script>

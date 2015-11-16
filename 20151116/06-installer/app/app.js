@@ -22,7 +22,7 @@ function doNotify() {
     var options = {
         title: "Snapshot Created",
         body: "Successfully saved new snap of your video",
-        icon: path.join(__dirname, 'image-' + counter + '.png')
+        icon: path.join('/tmp/', 'image-' + counter + '.png')
     };
 
     new Notification(options.title, options);
@@ -54,7 +54,7 @@ function snapshot() {
         var nolabel = document.getElementById('nonelabel');
         nolabel.style.visibility = 'hidden';
 
-        fs.writeFile('image-' + counter + '.png', buffer, function (err) {
+        fs.writeFile('/tmp/image-' + counter + '.png', buffer, function (err) {
           if (err) throw err;
           doNotify();
           counter++;
